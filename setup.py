@@ -14,7 +14,4 @@ setup(
     author_email="cyclebelfast@gmail.com",
     description="Convert iPython Notebook to HTML",
     py_modules=['ipynb2html'],
-    scripts = [
-        os.path.join(here, 'ipynb2html'),
-    ],
 )
